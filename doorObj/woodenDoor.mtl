@@ -12,5 +12,5 @@ newmtl orig_orig_orig_orig_orig_orig_orig_10057_wooden_door_v1
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka door.jpg
-	map_Kd door.jpg
+	map_Ka https://www.colorcaves.com/door/door.jpg
+	map_Kd https://www.colorcaves.com/door/door.jpg
