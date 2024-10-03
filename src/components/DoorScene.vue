@@ -147,10 +147,8 @@ let changeDoorSize = (dir) => {
 }
 
 let animate = () => {
-
   renderer.render(scene,camera);
   requestAnimationFrame(animate);
-
 }; animate();
 
 EventBus.$on('event name', (data) => {
