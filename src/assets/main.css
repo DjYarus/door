@@ -1,0 +1,46 @@
+@import './base.css';
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px;
+  font-weight: normal;
+}
+
+#scene{
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+}
+#controlsMore, #controlsLess{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(105,107,81);
+  -moz-border-radius: 50% 50%;
+  -webkit-border-radius: 50% 50%;
+  -khtml-border-radius: 50% 50%;
+  border-radius: 50% 50%;
+  cursor: pointer;
+}
+#controlsMore {
+  top: 20px;
+  left: 20px;
+}
+#controlsLess {
+  top: 20px;
+  left: 80px;
+}
+#controlsMore p, #controlsLess p {
+  color: rgb(255,255,255);
+  text-align: center;
+  line-height: 43px;
+  font-size: 3em;
+}
